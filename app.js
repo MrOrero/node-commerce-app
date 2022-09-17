@@ -13,7 +13,7 @@ const Admin = require('./models/admin')
 
 
 
-const MongoDbURI = 'mongodb+srv://Orero:orero2002@cluster0.zf1ulpl.mongodb.net/mongooseShop?retryWrites=true&w=majority'
+const MongoDbURI = 'MONGODBURL'
 
 const app = express()
 const sessionStore = new MongoDbStore({
